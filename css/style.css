@@ -1,16 +1,17 @@
 @import 'reset.css';
 
-#main {background-image: url('http://thepetwiki.com/images/thumb/Dog_Paw.jpg/400px-Dog_Paw.jpg');}
+#main {background-image: url();}
 h3{font-family: 'Slabo 27px', serif; 
 font-size: 35px;
 font-weight: bold;
 }
+
  .nav, .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover,
 						.nav-tabs > li.active > a:focus, .nav-tabs > li > a {
-							border:none;
+							border: none; 
 							font-family: 'Playfair Display', serif;
-							color: #0B0B3B;
-							font-size: 38px;}
+							color: #0A0A2A;
+							font-size: 20px;}
 							
 							
 						h3 {
@@ -19,14 +20,15 @@ font-weight: bold;
 	font-size: 48px
 					}
 
-#arts { background-image: url('http://wallpoper.com/images/00/39/68/37/skulls-artwork_00396837.jpg');
+#arts{background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpQ1GbZ7IceByEpaNiXXEUII-z37xXWGX9MDnNpMH3VLXM0Lm8sg');}
 
+#tab{background-image: url('http://sylviachanart.com/wp-content/uploads/2014/09/create.jpg');
 }
 
-#tech{ background-image: url('http://images.gizmag.com/hero/world_technology.jpg');
+#tech{background-image: url('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSkRvx4firpnwXHHMW1RCfjCWt1HeXfD5mhQ3oAwRxG4AemOCYR5g');}
 
-}
+#animals{background-image: url('http://www.planwallpaper.com/static/images/7004205-cool-black-backgrounds-27640_lhK8IKI.jpg');}
+#intrest{background-color: ;}
 
-#animals { background-image: url('http://www.wesavepets.org/graphics/tagline_overlay.png');
-
-}
+#about{background-image:url('');}
+#index{background-image:url('');}
