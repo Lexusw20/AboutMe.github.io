@@ -1,7 +1,7 @@
 @import 'reset.css';
 
-#main {background-image: url();}
-h3{font-family: 'Slabo 27px', serif; 
+#main {background-color: #80FF00}
+h3{font-family: 'Bangers', cursive; 
 font-size: 35px;
 font-weight: bold;
 }
@@ -32,3 +32,17 @@ font-weight: bold;
 
 #about{background-image:url('');}
 #index{background-image:url('');}
+p.one{font-family: 'Cantarell', sans-serif;
+		font-size: 28px;
+		color: red;
+	}
+p.two{font-family: 'Bangers', cursive;
+font-size: 25px;
+color: blue;
+margin: 7%;
+    width: 100%;
+    border:none;
+   
+}
+p.three{;
+ }
