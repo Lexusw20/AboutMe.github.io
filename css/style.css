@@ -1,6 +1,6 @@
 @import 'reset.css';
 
-#main {background-color: #80FF00}
+#main {background-image: url('http://i.imgur.com/alIsMkx.jpg?3');}
 h3{font-family: 'Bangers', cursive; 
 font-size: 35px;
 font-weight: bold;
@@ -22,7 +22,7 @@ font-weight: bold;
 
 #arts{background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpQ1GbZ7IceByEpaNiXXEUII-z37xXWGX9MDnNpMH3VLXM0Lm8sg');}
 
-#tab{background-image: url('http://sylviachanart.com/wp-content/uploads/2014/09/create.jpg');
+#tab{background-image: url('http://lewamack.com/Facebook/Pics/Welcome/Welcome-animated-welcome-77.gif');
 }
 
 #tech{background-image: url('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSkRvx4firpnwXHHMW1RCfjCWt1HeXfD5mhQ3oAwRxG4AemOCYR5g');}
