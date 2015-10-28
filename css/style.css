@@ -1,6 +1,9 @@
 @import 'reset.css';
 
-#main {background-image: url('http://i.imgur.com/alIsMkx.jpg?3');}
+#main {margin: 0;
+padding: 0;
+border:50px solid #210B61;
+background-color: #A4A4A4}
 h3{font-family: 'Bangers', cursive; 
 font-size: 35px;
 font-weight: bold;
@@ -22,8 +25,13 @@ font-weight: bold;
 
 #arts{background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpQ1GbZ7IceByEpaNiXXEUII-z37xXWGX9MDnNpMH3VLXM0Lm8sg');}
 
-#tab{background-image: url('http://lewamack.com/Facebook/Pics/Welcome/Welcome-animated-welcome-77.gif');
+#tab{background-image: url('http://scontent-b.cdninstagram.com/hphotos-xfa1/t51.2885-15/10448926_874981939183228_169400303_a.jpg');
 }
+#T{font-family: 'Bangers', cursive;
+font-size: 25px;
+color: blue;
+margin: 7%;
+    width: 100%}
 
 #tech{background-image: url('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSkRvx4firpnwXHHMW1RCfjCWt1HeXfD5mhQ3oAwRxG4AemOCYR5g');}
 
@@ -32,17 +40,26 @@ font-weight: bold;
 
 #about{background-image:url('');}
 #index{background-image:url('');}
-p.one{font-family: 'Cantarell', sans-serif;
+p.one{font-family: 'Bangers', cursive;
 		font-size: 28px;
-		color: red;
+		color: #FF0040;
+		margin: 7%;
+    width: 100%;
+    border:none;
 	}
 p.two{font-family: 'Bangers', cursive;
 font-size: 25px;
-color: blue;
+color: #FF0040;
 margin: 7%;
     width: 100%;
     border:none;
    
 }
-p.three{;
+p.three{font-family: 'Bangers', cursive;
+
+font-size: 25px;
+color: #FF0040;
+margin: 7%; margin-left:-76% ;
+    width: 60px;
+    border:none;
  }
