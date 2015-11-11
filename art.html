@@ -5,15 +5,18 @@
 	<meta charset="utf-8" lang="en">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- change the title to something related to your project -->
-	<title>Future</title>
+	<title>Interest</title>
 
 	<link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </head>
-<body id="arts">
- 
+<body>
+
+ <header class="navbar-inverse" role="banner">
+ <div class="container">
+<nav role="navigation">
 
 	<!-- container div, all website content -->
 	<!-- there are 3 rows in the template, you can add as many as you like -->
@@ -21,33 +24,63 @@
 	<center><h3><strong>Welcome To My Thoughts</strong></h3></center>
 	<ul class="nav nav-tabs">
 	<!-- header row, all header content -->
-		<header class="row">
-			<div class="col-md-2"><li role="presentation"><a href="index.html">Welcome</a></li>
-					<li role="presentation"><a href="animals.html">Interest</a></li>
-					<li role="presentation"><a href="tech.html">Motivation</a></li>
-					<li role="presentation" class="active"><a href="art.html">Future</a></li>
-				</ul>
-</div>
-			<div class="col-md-10"></div>
-				
+		
+
+
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand"  href="welcome.html">Welcome</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Future<span class="sr-only">Interest</span></a></li>
+        <li><a href="animals.html">Motivation</a></li>
+        <li class="dropdown">
+          <a href="drop.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Interest<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="tech.html">Music</a></li>
+            <li class="active"><a href="art.html">Thoughts</a></li>
+            <li><a href="pet.html">Pets</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="artwork.html">Artwork</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="politics.html">Politics</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
 					
+
 
 			<!-- insert columns here, any combination of numbers that add up to 12 -->
 			<!-- create columns by adding the 'col-md-number' class to elements inside a row where number is anything between 1 and 12 -->
 			<!-- e.g. 3 sections of 4 columns each - add class="col-md-4" to each element inside the row -->
 		</header>
-		<nav class="row">
-			<div class="col-md-12"></div>
-		</nav>
-		<!-- section row, all primary content -->
-		<section class="row">
-		<section class="row">
-					<div class="col-md-3">
-
-					</div>
-					<div class="col-md-6"></div>
-					<div class="col-md-3"></div>
-		</section>
+		
+		<div class="container">
+		<div class="row">
+		<div class="col-sm-4 col-xs-12">Test</div>
+		<div class="col-sm-4 col-xs-12">Test2</div>
+		<div class="col-sm-4 col-xs-12">Test3</div>
+		</div>
+		</div>
 
 			<!-- insert columns here, any combination of numbers that add up to 12 -->
 			<!-- create columns by adding the 'col-md-number' class to elements inside a row where number is anything between 1 and 12 -->
